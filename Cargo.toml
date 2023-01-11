@@ -7,4 +7,7 @@ edition = "2021"
 
 [dependencies]
 yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
-stylist = "0.11.0"
+yew-router = "0.16"
+web-sys = "0.3.57"
+log = "0.4.6"
+wasm-logger = "0.2.0"
